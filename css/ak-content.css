@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	font-size: 100%;
+	height: 100%;
+}
+body{
+	font-family: "bitter","Times New Roman", "serif";
+	font-size: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-image: url("../bilder/texture.png");
+	background-repeat: repeat;
+}
+img{
+	max-width: 100%;
+}
+figure{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0; 
+}
+header{
+	position: relative;
+	width:100%;
+	height: auto;
+	border: 1px solid black;
+}
+header figure{
+	position: relative;
+	width: 100%;
+	height: 27vw;
+	overflow: hidden;
+}
+
+nav{
+	position: relative;
+	width: 100%;
+	height: 40px;
+	background-color: rgba(78,10,118,1.00);
+	border-top: 2px solid gray;
+}
+nav ul{
+	position: relative;
+	width: 80vw;
+	list-style: none;
+	margin: 0 auto 0 auto;
+	padding: 10px 0 0 0;
+	display: flex;
+}
+nav ul li{}
+nav ul li a:link,
+nav ul li a:active,
+nav ul li a:visited{
+	margin: 0 20px 0 0;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	color: rgba(122,88,122,1.00);
+}
+nav ul li a:hover{
+	color: rgba(199,136,208,1.00);
+}
+nav ul li.auswahl{
+	margin: 0 20px 0 0;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	color: rgba(144,99,151,1.00);
+}
+
+main{
+	position: relative;
+	flex: 1;
+	width: 80vw;
+	height: auto;
+	border: 1px solid gray;
+	margin: 20px auto 20px auto;
+	padding: 0 10px 0 10px;
+	background-color: rgba(78,10,118,1.00);
+	color: white;
+}
+main article{
+	margin: 0 0 20px 0;
+}
+
+main article.galerie{
+	display: flex;
+}
+main article.galerie figure{
+	margin: 0 10px 0 0;
+	width: 50%;
+}
+main article.galerie figure:last-child{
+	margin: 0 0 0 0;
+}
+main article.wapitibild{
+	display: flex;
+}
+main article.wapitibild figure{
+	margin: 0 10px 0 0;
+}
+main article.wapitibild figure:last-child{
+	margin: 0 0 0 0;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(78,10,118,1.00);
+	color: white;
+}
+
+h1{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 50px;
+	color: white;
+}
+h1 span{
+	display: block;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	margin: -6px 0 0 135px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
